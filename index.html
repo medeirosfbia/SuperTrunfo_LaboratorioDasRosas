@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - SUPER TRUNFO - MULHERES NA CIÊNCIA</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 08
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <a class="how-to-play" href="https://mulberry-produce-87b.notion.site/Super-Trunfo-Laborat-rio-das-Rosas-19b7d8315191443d8578433a9cb298db">Como Jogar</a>
+      <img src="https://i.imgur.com/wlYExqS.jpg" class="page-logo" alt="">
+    </header>
+    <h1 class="page-title">Super Trunfo:</h1>
+    <h2 class="page-subtitle">Laboratório das Rosas</h2>
+    <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+    <form id="form">
+      <h2 class="instructions">Sorteie sua carta, escolha seu atributo e jogue!</h2>
+      <div class="wrapper">
+        <div>
+          <div id="carta-jogador">
+            <img src="https://i.imgur.com/7x4IgmD.png" style=" width: inherit; height: inherit; position: absolute;">
+            <h3></h3>
+          </div>
+        </div>
+        <div>
+          <div id="carta-maquina" class="carta"><img src="https://i.imgur.com/7x4IgmD.png" style=" width: inherit; height: inherit; position: absolute;"></div>
+        </div>
+      </div>
+      <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+      <div id="resultado"></div>
+    </form>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
